@@ -1,0 +1,7 @@
+[package]
+name = "mutos"
+version = "0.1.0"
+authors = ["Alastair Feille <me@alastair.se>"]
+edition = "2018"
+
+[dependencies]
