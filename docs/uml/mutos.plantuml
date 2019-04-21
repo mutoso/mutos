@@ -1,0 +1,6 @@
+@startuml
+package mutos
+{
+    class Kernel
+}
+@enduml
