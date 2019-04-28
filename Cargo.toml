@@ -1,7 +1,16 @@
 [package]
 name = "mutos"
 version = "0.1.0"
+description = "A microkernel"
+
+homepage = "https://mutos.org"
+repository = "https://github.com/mutoso/mutos"
+
 authors = ["Alastair Feille <me@alastair.se>"]
+
+license = "MPL-2.0"
+readme = "README.md"
+
 edition = "2018"
 
 [dependencies]
