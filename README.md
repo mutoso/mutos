@@ -14,3 +14,9 @@ An attempt at a microkernel written in Rust
 ```
 ./build.sh
 ```
+
+# Running
+(Requires qemu)
+```
+bootimage run
+```
