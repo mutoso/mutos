@@ -10,14 +10,18 @@
 
 use core::panic::PanicInfo;
 
+mod vga;
+
 #[no_mangle]
 fn _start() -> !
 {
+    println!("Welcome to mutos!");
     loop {}
 }
 
 #[panic_handler]
-fn panic(_info: &PanicInfo) -> !
+fn panic(info: &PanicInfo) -> !
 {
+    println!("{}", info);
     loop {}
 }
